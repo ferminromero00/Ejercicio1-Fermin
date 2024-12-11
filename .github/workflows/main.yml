@@ -71,7 +71,7 @@ jobs:
 
       - name: Descargar estado de Terraform desde S3
         run: |
-          aws s3 cp s3://bucketfermin/terraform.tfstate terraform/terraform.tfstate
+          aws s3 cp s3://ferminromerotraperodaw/terraform.tfstate terraform/terraform.tfstate
 
       - name: Inicializar y Destruir Terraform
         run: |
